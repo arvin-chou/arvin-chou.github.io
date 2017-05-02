@@ -102,6 +102,8 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-61326786-1'
+        ad-client: "ca-pub-3270694191265322"
+        ad-slot: "4315525099"
     getclicky :
       site_id : 
     mixpanel :
