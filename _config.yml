@@ -101,9 +101,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-61326786-1'
-        ad-client: "ca-pub-3270694191265322"
-        ad-slot: "4315525099"
+      tracking_id : 'UA-61326786-1'
     getclicky :
       site_id : 
     mixpanel :
@@ -111,6 +109,11 @@ JB :
     piwik :
         baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
         idsite : '1'                   # the id of the site on Piwik
+
+  advertising:
+    google : 
+      ad-client: "ca-pub-3270694191265322"
+      ad-slot: "4315525099"
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
